@@ -1,4 +1,8 @@
 RailsGit::Application.routes.draw do
+  root to: "github_user_lookup#index"
+
+  match '/show' => 'github_user_lookup#show'
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
