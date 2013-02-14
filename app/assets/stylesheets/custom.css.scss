@@ -1,0 +1,18 @@
+body {
+  margin: 0px;
+  font-family: sans-serif;
+
+  .header {
+    height: 75px;
+    margin: 0px auto;
+  }
+
+  .content {
+    width: 960px;
+    margin: 20px auto;
+
+    .hero {
+      text-align: center;
+    }
+  }
+}

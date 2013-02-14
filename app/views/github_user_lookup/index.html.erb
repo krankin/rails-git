@@ -1,0 +1,8 @@
+<div class="hero">
+  <h1>Enter a user</h1>
+  <%= form_tag(action: "show") do %>
+    <%= text_field_tag :user_name, params[:user_name] %>
+    <br />
+    <%= submit_tag "Lookup User" %>
+  <% end %>
+</div>
